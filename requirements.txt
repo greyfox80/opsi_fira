@@ -1,6 +1,6 @@
-numpy==1.23.0
+numpy==2.0.0
 opencv-python
 streamlit==1.22.0
 Keras==2.13.1
-tensorflow>=2.16.0
+tensorflow==2.16.2
 scikit-learn==0.23.2
