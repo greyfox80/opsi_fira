@@ -20,7 +20,7 @@ file = st.file_uploader("Upload you garbage image in uploder below and we will p
 
 # Load Model Classification
 #model = pickle.load(open('D:/Model_Opsi_Data_Sampah_002.sav', 'rb'))
-model  = load_model('Model_Opsi_Data_Sampah_004.keras')
+model  = load_model('Model_Opsi_Data_Sampah_003.keras')
 
 
 # Load_ Class Name
