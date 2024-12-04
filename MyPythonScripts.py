@@ -36,7 +36,7 @@ model  = load_model('Model_Opsi_Data_Sampah_003.keras')
 # Load_ Class Name
 class_names = ['1', '2', '3']
 class_name2 = ['Low','Medium','High']
-class_name3 = ['Siaga, Lingkungan perlu di monitor oleh warga', 'Waspada, Warga di sarankan segera menjadwalkan pembersihan lingkungan','Berbahaya, Segera lakukan pembersihan linkungan']
+class_name3 = ['Siaga, Lingkungan perlu di awasi oleh warga', 'Waspada, Warga di sarankan segera menjadwalkan pembersihan lingkungan','Berbahaya, Segera lakukan pembersihan lingkungan']
 
 
 # Display Image
