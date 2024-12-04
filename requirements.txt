@@ -1,6 +1,6 @@
 numpy
 streamlit
-Keras==2.12.0
+Keras==2.8.0
 tensorflow
 st_annotated_text
 
