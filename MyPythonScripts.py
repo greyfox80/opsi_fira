@@ -29,6 +29,8 @@ with col3:
                 ("by","Shafira","#8ef"),("and","Adenia","#faa")
               )
 
+print(f"Loading model from: {model_path}")
+
 # Load Model Classification
 model  = load_model('Model_Opsi_Data_Sampah_003.keras')
 
