@@ -1,7 +1,5 @@
 numpy
 streamlit
-Keras
+Keras==2.8.0
 tensorflow
 st_annotated_text
-Heroku
-mlem
