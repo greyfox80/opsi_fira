@@ -30,7 +30,7 @@ with col3:
               )
 
 # Load Model Classification
-model  = load_model('Model_Opsi_Data_Sampah_002.h5')
+model  = load_model('Model_Opsi_Data_Sampah_003.keras')
 
 
 # Load_ Class Name
