@@ -8,6 +8,25 @@ from PIL import Image
 import time
 from annotated_text import annotated_text
 
+# Function to check Keras version compatibility (optional)
+def check_keras_version(saved_model_path):
+    # Implement logic to check the saved model's Keras version (e.g., from metadata)
+    # If versions differ, raise a warning or suggest installing a compatible version
+# Load Model Classification
+    try:
+        model = load_model('Model_Opsi_Data_Sampah_003.keras')
+        # Optional: Check Keras version compatibility using check_keras_version()
+    except OSError as e:
+        st.error(f"Error loading model: {e}")
+        exit(1)  # Exit gracefully
+    # Load Class Names (assuming pickle format)
+    try:
+        with open('class_names.pkl', 'rb') as f:  # Replace with your class name file path
+            class_names = pickle.load(f)
+    except FileNotFoundError:
+        st.error("Class names file not found.")
+    exit(1)
+
 # Title
 st.title("Welcome to 'EcoEye' Predictions")
 
