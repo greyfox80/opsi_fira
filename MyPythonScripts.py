@@ -26,7 +26,7 @@ with col2:
     """    
 with col3:
     annotated_text(
-                ("by","Shafira","#8ef"),("and","Adenia","#faa")
+                ("by","Shafira Adriana Arini","#8ef"),("and","SMUN 12 JKT","#faa")
               )
 
 # Load Model Classification
