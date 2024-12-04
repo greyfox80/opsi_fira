@@ -1,5 +1,5 @@
 numpy
 streamlit
 Keras<=3.5.0
-tensorflow<=2.0.0
+tensorflow<=1.15.2
 st_annotated_text
