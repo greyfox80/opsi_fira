@@ -52,15 +52,15 @@ if file is not None:
         progress_bar.progress(perc_completed+1)
 
     # Classify image
-    #class_name, index, prob = classify(image, model, class_names)
+    class_name, index, prob = classify(image, model, class_names)
 
     st.markdown(" ###### Process Completed !")
 
     #with st.expander('Click for prediction Result :'):
-    #     #metrics = st.metric(label="Prediction", value=format(class_name2[index]), delta=format(prob))
-    #     st.write("## Prediction Level : {} ".format(class_name2[index]))
-    #     st.write("## Prediction Prob : {:.0%} ".format(prob, '.0%'))
-    #     st.write("## Action Recommendation : {} ".format(class_name3[index]))
+         #metrics = st.metric(label="Prediction", value=format(class_name2[index]), delta=format(prob))
+         st.write("## Prediction Level : {} ".format(class_name2[index]))
+         st.write("## Prediction Prob : {:.0%} ".format(prob, '.0%'))
+         st.write("## Action Recommendation : {} ".format(class_name3[index]))
 
 
 
