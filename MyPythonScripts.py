@@ -32,7 +32,7 @@ with col3:
 print(f"Loading model from: {model_path}")
 
 # Load Model Classification
-model  = load_model('Model_Opsi_Data_Sampah_003.keras')
+model  = load_model('Model_Opsi_Data_Sampah_003.keras.h5')
 
 
 # Load_ Class Name
